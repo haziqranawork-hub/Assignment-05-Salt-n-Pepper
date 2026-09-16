@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.caacupe-one-regular {
+  font-family: "Caacupe One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+
+}
+
+.header {
+    height: 90px;
+    background-color: black;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 50px;
+}
+
+.logo{
+        padding-left: 50px;
+}
+
+.home {
+    color: white;
+    display: flex;
+    gap: 35px;
+    margin-left: 30%;
+    align-items: center;
+}
+
+.home p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.franchise {
+    margin-left: 35px;
+    padding: 15px 18px;
+
+    background-color: black;
+    color: white;
+
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+.order {
+    margin-left: 15px;
+    padding: 16px 13px;
+    font-size: 15px;
+    background-color: hwb(2 9% 9%);
+    color: white;
+
+    border: none;
+    border-radius: 30px;
+}
+
+.order span {
+    margin-left: 10px;
+    border-radius: 50px;
+    border: 1px solid white;
+    color: red;
+    background-color: white;
+}
+
+.first-logo{
+    font-family: 'ultra', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.heading{
+    margin-top: 60px;
+    color: white;
+    text-align: center;
+    word-spacing: 5px;
+}
+
+.heading h1{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.line{
+    color: white;
+    opacity: 0.6;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+
+.brands {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.brand-box {
+    width: 260px;
+    height: 140px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-box img {
+    width: 85%;
+}
+
+.now {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 25px;
+}
+
+.now button {
+    width: 175px;
+    height: 49px;
+
+    background-color: black;
+    color: white;
+
+    border: 1px solid white;
+    border-radius: 30px;
+
+    font-size: 15px;
+    font-weight: bold;
+}
